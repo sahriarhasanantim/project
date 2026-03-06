@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sahriar Hossain Antim | Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root { --primary: #38bdf8; --bg: #0b1120; --card: rgba(30, 41, 59, 0.7); }
+        * { margin: 0; padding: 0; box-sizing: border-box; scroll-behavior: smooth; }
+        body { font-family: 'Inter', sans-serif; background-color: var(--bg); color: #f8fafc; line-height: 1.6; }
+
+        /* Hero Section */
+        .hero { height: 100vh; display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 20px; background: radial-gradient(circle at center, #1e293b 0%, #0b1120 100%); }
+        .profile-img { width: 140px; height: 140px; border-radius: 50%; border: 3px solid var(--primary); margin-bottom: 20px; object-fit: cover; box-shadow: 0 0 20px rgba(56, 189, 248, 0.3); }
+        .hero h1 { font-size: 2.5rem; margin-bottom: 10px; background: linear-gradient(to right, #38bdf8, #818cf8); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .hero p { color: #94a3b8; font-size: 1.1rem; max-width: 500px; margin-bottom: 30px; }
+
+        /* Buttons */
+        .btn-group { display: flex; gap: 15px; }
+        .btn { padding: 12px 25px; border-radius: 30px; text-decoration: none; font-weight: 600; transition: 0.3s; font-size: 14px; }
+        .btn-primary { background: var(--primary); color: #000; }
+        .btn-outline { border: 1px solid var(--primary); color: var(--primary); }
+        .btn:hover { transform: translateY(-3px); box-shadow: 0 5px 15px rgba(0,0,0,0.3); }
+
+        /* Container Section */
+        section { padding: 60px 20px; max-width: 900px; margin: 0 auto; }
+        h2 { text-align: center; color: var(--primary); margin-bottom: 30px; font-size: 1.8rem; }
+        .glass-card { background: var(--card); padding: 25px; border-radius: 20px; border: 1px solid rgba(255,255,255,0.05); backdrop-filter: blur(12px); }
+
+        /* Gallery */
+        .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; }
+        .gallery img { width: 100%; height: 220px; object-fit: cover; border-radius: 12px; transition: 0.4s; border: 1px solid rgba(255,255,255,0.1); }
+        .gallery img:hover { transform: scale(1.03); border-color: var(--primary); }
+
+        /* Social Media Icons */
+        .socials { display: flex; justify-content: center; gap: 20px; padding: 20px; }
+        .socials a { color: #f8fafc; font-size: 1.8rem; transition: 0.3s; text-decoration: none; }
+        .socials a:hover { color: var(--primary); transform: translateY(-5px); }
+
+        /* Footer */
+        footer { text-align: center; padding: 50px 20px; background: #070b14; border-top: 1px solid #1e293b; color: #64748b; font-size: 0.9rem; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <img src="https://i.ibb.co/23T6CCtB/Picsart-25-11-01-01-10-20-887.jpg" alt="Antim" class="profile-img">
+        <h1>Sahriar Hossain Antim</h1>
+        <p>A Creative Thinker | Aspiring Visionary | Lifelong Learner</p>
+        <div class="btn-group">
+            <a href="#gallery" class="btn btn-primary">My Gallery</a>
+            <a href="#connect" class="btn btn-outline">Let's Connect</a>
+        </div>
+    </div>
+
+    <section>
+        <h2>About Me</h2>
+        <div class="glass-card">
+            "I am a driven and curious individual who has recently completed my Higher Secondary Education (HSC). My goal is to innovate, challenge the status quo, and leave a unique mark on the world."
+        </div>
+    </section>
+
+    <section>
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 15px;">
+            <div class="glass-card" style="text-align: center;"><i class="fas fa-music" style="color:var(--primary); font-size: 1.5rem;"></i><h3 style="margin:10px 0;">Music</h3></div>
+            <div class="glass-card" style="text-align: center;"><i class="fas fa-camera" style="color:var(--primary); font-size: 1.5rem;"></i><h3 style="margin:10px 0;">Photography</h3></div>
+            <div class="glass-card" style="text-align: center;"><i class="fas fa-book" style="color:var(--primary); font-size: 1.5rem;"></i><h3 style="margin:10px 0;">Reading</h3></div>
+            <div class="glass-card" style="text-align: center;"><i class="fas fa-plane" style="color:var(--primary); font-size: 1.5rem;"></i><h3 style="margin:10px 0;">Traveling</h3></div>
+        </div>
+    </section>
+
+    <section id="gallery">
+        <h2>Sahriar's Photo Gallery</h2>
+        <div class="gallery">
+            <img src="https://i.ibb.co/84jpmXWJ/Picsart-25-11-02-22-51-15-923.jpg">
+            <img src="https://i.ibb.co/rR0XHfSh/Picsart-25-10-27-12-31-00-384.jpg">
+            <img src="https://i.ibb.co/gM5K0GdN/Picsart-25-10-27-12-56-02-287.jpg">
+            <img src="https://i.ibb.co/hxVB2br6/Picsart-25-12-04-21-52-41-889.jpg">
+            <img src="https://i.ibb.co/fY4WYrF1/Picsart-25-11-02-22-39-03-977.jpg">
+            <img src="https://i.ibb.co/v6z1j1nP/Picsart-25-11-02-22-38-02-750.jpg">
+            <img src="https://i.ibb.co/W4jPvdkB/Picsart-25-11-02-22-45-20-935.jpg">
+            <img src="https://i.ibb.co/RkYg8MQx/Picsart-25-10-26-00-30-51-706.jpg">
+            <img src="https://i.ibb.co/7NgxCRK9/IMG-20260208-224245.jpg">
+            <img src="https://i.ibb.co/wrCnDqGz/Gemini-Generated-Image-ihonayihonayihon.png">
+            <img src="https://i.ibb.co/hRmTPgRg/IMG-20260222-151319.jpg">
+            <img src="https://i.ibb.co/277WFNGN/IMG-20260222-105723.jpg">
+            <img src="https://i.ibb.co/7xQ0fLS8/IMG-20260223-055200.jpg">
+            <img src="https://i.ibb.co/Wp0zg9dh/Picsart-26-02-26-11-04-24-748.jpg">
+            <img src="https://i.ibb.co/S47bHS8D/Picsart-26-02-26-10-51-31-055.jpg">
+            <img src="https://i.ibb.co/YFryKzpY/Picsart-26-02-24-14-14-12-719.jpg">
+            <img src="https://i.ibb.co/s9kRm78J/Picsart-26-02-23-14-39-20-566.jpg">
+        </div>
+    </section>
+
+    <section id="connect">
+        <h2>Let's Connect</h2>
+        <div class="socials">
+            <a href="https://www.facebook.com/sahriarantim" target="_blank"><i class="fab fa-facebook"></i></a>
+            <a href="https://www.facebook.com/Sahriarhassanantim" target="_blank"><i class="fas fa-bullhorn"></i></a>
+            <a href="https://www.instagram.com/sahriarhassanantim" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://bd.linkedin.com/in/sahriar-antim" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <p style="text-align: center; margin-top: 10px;">Email: sahriarantim@gmail.com</p>
+    </section>
+
+    <footer>
+        <p>Village: Gonderdiya, Monohardi, Narsingdi, Dhaka</p>
+        <p style="margin-top: 10px; opacity: 0.5;">&copy; 2026 Sahriar Hossain Antim</p>
+    </footer>
+
+</body>
+</html>
